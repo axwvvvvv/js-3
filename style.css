@@ -1,0 +1,28 @@
+
+
+body {
+    animation: lgbt 5s infinite;
+
+    height: 100dvh;
+    transition: 1s;
+
+
+
+}
+
+.box {
+    img {
+        width: 100%;
+    }
+}
+
+
+
+@keyframes lgbt {
+    0% {
+      background-position: 100% 0;
+    }
+    100% {
+    background-position: 0 0;
+    }
+}
